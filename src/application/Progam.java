@@ -1,9 +1,12 @@
 package application;
 
+import boardgame.Position;
+
 public class Progam {
 
 	public static void main(String[] args) {
-		System.out.println("hello word");
+		Position pos = new Position(4, 3);
+		System.out.println(pos);
 
 	}
 
